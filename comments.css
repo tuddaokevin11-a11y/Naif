@@ -1,0 +1,29 @@
+#commentForm {
+    max-width: 600px;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px
+}
+
+#commentForm input,
+#commentForm textarea {
+    padding: 12px;
+    background: #222;
+    color: white;
+    border: 1px solid #555
+}
+
+#commentForm button {
+    padding: 12px;
+    cursor: pointer
+}
+
+.comment {
+    max-width: 600px;
+    margin: 10px auto;
+    padding: 15px;
+    background: #222;
+    text-align: left;
+    border-radius: 7px
+}

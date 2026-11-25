@@ -1,0 +1,25 @@
+.search-container {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+#searchForm {
+    display: flex;
+    gap: 5px;
+}
+
+#searchInput {
+    width: 450px;
+    padding: 10px;
+    border: 3px solid #ccc;
+    border-radius: 4px;
+}
+
+#searchForm button {
+    padding: 8px 12px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    color: rgb(124, 124, 133);
+}

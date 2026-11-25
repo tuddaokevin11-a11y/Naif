@@ -1,0 +1,89 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dance Practice Booking - D-Nif</title>
+    <link rel="stylesheet" href="navigation.css">
+    <link rel="stylesheet" href="logo.css">
+    <link rel="stylesheet" href="Book now.css">
+</head>
+<body>
+
+<nav>
+    <a href="home.html" class="studio-name">D-NIF <span>DANCE STUDIO</span></a>
+    <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="background.html">Background</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+        <li><a href="Book now.html" class="active">Book Now</a></li>
+    </ul>
+    <button id="logoutButton" class="logout">Log Out</button>
+</nav>
+
+<main class="registration-page">
+    <section class="registration">
+        <a href="Book now.html" class="back-link">Back to Book Now</a>
+
+        <h1>Dance Practice Booking</h1>
+        <p class="form-intro">
+            Fill out the form to request your preferred studio practice time.
+        </p>
+
+        <form action="#" method="get">
+            <input type="hidden" name="service" value="Dance Practice">
+
+            <label for="firstname">First Name</label>
+            <input id="firstname" name="firstname" type="text" required>
+
+            <label for="lastname">Last Name</label>
+            <input id="lastname" name="lastname" type="text" required>
+
+            <label for="email">Email Address</label>
+            <input id="email" name="email" type="email" required>
+
+            <label for="phone">Phone Number</label>
+            <input id="phone" name="phone" type="tel" placeholder="09XXXXXXXXX" required>
+
+            <label for="group">Practice Type</label>
+            <select id="group" name="practiceType" required>
+                <option value="">Select practice type</option>
+                <option>Individual Practice</option>
+                <option>Group Practice</option>
+                <option>Performance Rehearsal</option>
+            </select>
+
+            <label for="date">Preferred Practice Date</label>
+            <input id="date" name="date" type="date" required>
+
+            <label for="time">Preferred Practice Time</label>
+            <select id="time" name="time" required>
+                <option value="">Select a time</option>
+                <option>9:00 AM</option>
+                <option>10:00 AM</option>
+                <option>1:00 PM</option>
+                <option>2:00 PM</option>
+                <option>3:00 PM</option>
+            </select>
+
+            <label for="duration">Practice Duration</label>
+            <select id="duration" name="duration" required>
+                <option value="">Select duration</option>
+                <option>1 hour</option>
+                <option>2 hours</option>
+                <option>3 hours</option>
+            </select>
+
+            <label for="notes">Additional Requests</label>
+            <textarea id="notes" name="notes" placeholder="Tell us about your practice needs..."></textarea>
+
+            <button type="submit" class="submit-button">Submit Practice Request</button>
+        </form>
+    </section>
+</main>
+
+</body>
+</html>

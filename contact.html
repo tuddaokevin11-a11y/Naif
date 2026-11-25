@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - D-Nif Dance Studio</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="navigation.css">
+    <link rel="stylesheet" href="comments.css">
+</head>
+
+<body>
+    <nav><span>D-NIF DANCE STUDIO</span>
+        <ul>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="background.html">Background</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="Book Now.html">Book Now</a></li>
+        </ul><button id="logoutButton" class="logout">Log Out</button>
+    </nav>
+    <section class="page-section contact-page">
+        <div class="section-title">
+            <h1>CONTACT US</h1>
+            <p>Have questions? Get in touch with D-Nif Dance Studio.</p>
+        </div>
+        <div class="contact-box">
+            <p>📧 Email: d-nifdancestudio@gmail.com</p>
+            <p>📱 Phone: 09263380509</p>
+            <p>📍 Location:Zone II Maasin, Zamboanga City</p>
+        </div>
+        <div class="comments">
+            <h2>Comments</h2>
+            <p>Share your thoughts about D-Nif Dance Studio.</p>
+            <form id="commentForm"><input id="commentName" placeholder="Your name" required><textarea id="commentText"
+                    placeholder="Write your comment..." required></textarea><button type="submit">POST COMMENT</button>
+            </form>
+            <div id="commentList"></div>
+        </div>
+    </section>
+    <footer>
+        <p>© 2026 D-Nif Dance Studio. Learn from reflection.</p>
+    </footer>
+    <script src="js/main.js"></script>
+    <script src="js/comments.js"></script>
+</body>
+
+</html>

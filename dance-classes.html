@@ -1,0 +1,88 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dance Classes Registration - D-Nif</title>
+    <link rel="stylesheet" href="navigation.css">
+    <link rel="stylesheet" href="logo.css">
+    <link rel="stylesheet" href="Book now.css">
+</head>
+<body>
+
+<nav>
+    <a href="home.html" class="studio-name">D-NIF <span>DANCE STUDIO</span></a>
+    <ul>
+        <li><a href="home.html">Home</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="background.html">Background</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+        <li><a href="Book now.html" class="active">Book Now</a></li>
+    </ul>
+    <button id="logoutButton" class="logout">Log Out</button>
+</nav>
+
+<main class="registration-page">
+    <section class="registration">
+        <a href="Book now.html" class="back-link">Back to Book Now</a>
+
+        <h1>Dance Classes Registration</h1>
+        <p class="form-intro">
+            Choose your preferred dance style and class schedule.
+        </p>
+
+        <form action="#" method="get">
+            <input type="hidden" name="service" value="Dance Classes">
+
+            <label for="firstname">First Name</label>
+            <input id="firstname" name="firstname" type="text" required>
+
+            <label for="lastname">Last Name</label>
+            <input id="lastname" name="lastname" type="text" required>
+
+            <label for="email">Email Address</label>
+            <input id="email" name="email" type="email" required>
+
+            <label for="phone">Phone Number</label>
+            <input id="phone" name="phone" type="tel" placeholder="09XXXXXXXXX" required>
+
+            <label for="style">Preferred Dance Style</label>
+            <select id="style" name="style" required>
+                <option value="">Select a dance style</option>
+                <option>Pop &amp; Lock</option>
+                <option>Krump</option>
+                <option>Afro</option>
+                <option>Open Style</option>
+            </select>
+
+            <label for="level">Skill Level</label>
+            <select id="level" name="level" required>
+                <option value="">Select your level</option>
+                <option>Beginner</option>
+                <option>Intermediate</option>
+                <option>Advanced</option>
+            </select>
+
+            <label for="schedule">Preferred Schedule</label>
+            <select id="schedule" name="schedule" required>
+                <option value="">Choose a schedule</option>
+                <option>Monday - 9:00 AM</option>
+                <option>Monday - 2:00 PM</option>
+                <option>Wednesday - 9:00 AM</option>
+                <option>Wednesday - 2:00 PM</option>
+                <option>Friday - 9:00 AM</option>
+                <option>Friday - 2:00 PM</option>
+            </select>
+
+            <label for="notes">Additional Information</label>
+            <textarea id="notes" name="notes" placeholder="Tell us about your dance interests..."></textarea>
+
+            <button type="submit" class="submit-button">Submit Class Registration</button>
+        </form>
+    </section>
+</main>
+
+</body>
+</html>
